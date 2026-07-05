@@ -63,8 +63,8 @@ try:
 except Exception:
     raise ValueError("CRITICAL ERROR: 'ADMIN_GROUP_ID' missing or invalid in .env")
 
-SUPPORT_USERNAME = "USDT_EGRU_BOT"
-BOT_NAME = "EGRU USDT (2.0)"
+SUPPORT_USERNAME = "USDT_No1_BOT"
+BOT_NAME = "USDT FARM"
 DB_FILE = "orders.db"
 
 # Deployment Debugging Infrastructure Logs
@@ -72,12 +72,12 @@ logger.info(f"Bot started: {BOT_NAME}")
 logger.info(f"🚀 Loaded {len(ADMINS)} admins successfully from configuration matrix.")
 logger.info(f"📊 Admin Compliance Group ID set to: {ADMIN_GROUP_ID}")
 
-LIMITS = {"MIN": 100, "MAX": 10000}
-USDT_PRICE = 98
+LIMITS = {"MIN": 150, "MAX": 10000}
+USDT_PRICE = 100
 
-QR_URL = "https://graph.org/file/99cd5dff4b5b250bcc935-e0ca35350e6546d0f1.jpg"
-LOGO_URL = "https://graph.org/file/88fae9101a390cecae39b-8835e47b14719614e5.jpg"
-FOOTER_TAG = "⚡ <i>Powered by EGRU Ecosystem • Secured Node</i>"
+QR_URL = "https://graph.org/file/b8c78cd82c1f361c90921-e36f6a93f11b1b62a4.jpg"
+LOGO_URL = "https://graph.org/file/f34820a99c1daa95ca35b-c1ea805f3bb2111f6e.jpg"
+FOOTER_TAG = "⚡ <i>Powered by Usdt Farm Ecosystem • Secured Node</i>"
 
 # Validations Regex
 RE_EVM = r"^0x[a-fA-F0-9]{40}$"
